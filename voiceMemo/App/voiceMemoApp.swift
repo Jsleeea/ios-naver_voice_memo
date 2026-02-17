@@ -14,7 +14,8 @@ struct voiceMemoApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
+                .preferredColorScheme(.light)
         }
     }
 }
